@@ -26,12 +26,19 @@ body {
 
 p {
     font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 24px;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
 }
 
 
 .card {
     height: 800px;
-    width: 500px;
+    width: 450px;
     background: white;
     border-radius: 18px;
     box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
@@ -46,7 +53,7 @@ p {
 .card_image_container {
     width: 100%;
     background: url(/images/illustration-hero.svg);
-    flex: .8;
+    flex: .6;
     border-radius: 18px 18px 0 0;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -54,9 +61,9 @@ p {
 }
 
 .card_text_container {
-    padding: 10px 40px;
+    padding: 10px 60px;
     width: 100%;
-    flex: 1.2;
+    flex: 1.4;
     display: flex;
     align-items: center;
     justify-content: center;
