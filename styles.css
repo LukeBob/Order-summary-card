@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: hsl(225, 100%, 98%);
+    background-color: #e0e8ff;
     background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -44,9 +44,9 @@ h2 {
     width: min(500px, 500px);
     background: white;
     border-radius: 18px;
-    box-shadow: 0px 4px 9px 0px #d6e1ff;
-    -webkit-box-shadow: 0px 4px 9px 0px #d6e1ff;
-    -moz-box-shadow: 0px 4px 9px 0px #d6e1ff;
+    box-shadow: 0px 4px 9px 0px hsl(224, 23%, 55%);
+    -webkit-box-shadow: 0px 4px 9px 0px hsl(224, 23%, 55%);
+    -moz-box-shadow: 0px 4px 9px 0px hsl(224, 23%, 55%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,9 +139,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 9px 0px hsl(224, 23%, 55%);
+    -webkit-box-shadow: 0px 4px 9px 0px hsl(224, 23%, 55%);
+    -moz-box-shadow: 0px 4px 9px 0px hsl(224, 23%, 55%);
     cursor: pointer;
     transition: all 150ms ease-in-out;
 }
@@ -154,12 +154,12 @@ h2 {
     -moz-box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75)!important;
 }
 
-.button:hover{
+/* .button:hover{
     transform: translateY(-2px);
     box-shadow: 0px 10px 38px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 10px 38px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 38px 0px rgba(0,0,0,0.75);
-}
+} */
 
 .button > p {
     font-weight: 700;
