@@ -21,12 +21,17 @@ body {
     background: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    font-size: 16px;
 }
 
 
 .card {
     height: 800px;
-    width: 600px;
+    width: 500px;
     background: white;
     border-radius: 18px;
     box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
@@ -49,8 +54,11 @@ body {
 }
 
 .card_text_container {
-   
+    padding: 10px 40px;
     width: 100%;
     flex: 1.2;
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
