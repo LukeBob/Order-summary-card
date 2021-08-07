@@ -186,9 +186,13 @@ h3 {
     color: hsl(245, 45%, 69%);
 }
 
-.card_heading_container > p {padding: 2px 12px;}
+.card_heading_container > p {
+    padding: 2px 12px;
+}
 
+/* Mobile Version */
 @media screen and (max-width: 692px) {
+    
     .card_top_container {
         flex: .4;
     }
@@ -201,6 +205,7 @@ h3 {
         height: 620px;
         width: min(330px, 330px);
    }
+
    .card_bottom_container {
        padding: 5px 20px;
    }
@@ -210,19 +215,26 @@ h3 {
        padding: 18px 14px;
        margin-top: 0;
    }
+
    .music_icon {
        margin-right: 6px;
+   }
+
+   .button {
+       height: 55px;
    }
 
    .buttons_container {
        flex: .8;
    }
+
    h1 {
        font-size: 24px;
    }
+
    p {
        font-size: 14px;
    }
 
 
-  }
+}
