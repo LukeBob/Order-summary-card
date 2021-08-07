@@ -18,17 +18,19 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
-    background: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 98%);
+    background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: 'Red Hat Display', sans-serif;
 }
 
-p {
+p, a {
     font-size: 16px;
     font-weight: 500;
     color: hsl(224, 23%, 55%);
     line-height: 24px;
+    text-align: center;
 }
 
 h1 {
@@ -102,11 +104,15 @@ h1 {
 .proc_container > a {
     text-decoration: none;
     margin-top: 20px;
-    padding: 24px 14px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
-    color: hsl(228, 45%, 44%);
+    transition: all 200ms ease-in-out;
 }
+.proc_container > a:hover {
+ color:hsl(223, 47%, 23%);
+}
+
+
 
 .button {
     height: 60px;
