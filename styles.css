@@ -133,7 +133,7 @@ h3 {
 }
 
 .button {
-    height: 60px;
+    height: 50px;
     width: 100%;
     background: hsl(245, 75%, 52%);
     border-radius: 18px;
@@ -186,3 +186,29 @@ h3 {
     color: hsl(245, 45%, 69%);
 }
 
+
+@media screen and (max-width: 692px) {
+    .card_top_container {
+        flex: .3;
+    }
+   .card {
+        height: 620px;
+        width: min(320px, 320px);
+   }
+   .card_bottom_container {
+       padding: 5px 20px;
+   }
+
+   .plan_container {
+       flex: .2;
+       padding: 8px 14px;
+       margin-top: 0;
+   }
+   .music_icon {
+       margin-right: 6px;
+   }
+
+   .buttons_container {
+       flex: .8;
+   }
+  }
