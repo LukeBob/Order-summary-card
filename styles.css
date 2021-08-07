@@ -32,7 +32,9 @@ p {
 }
 
 h1 {
+    padding: 24px 4px;
     color: hsl(223, 47%, 23%);
+
 }
 
 
@@ -68,4 +70,22 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
+
+.card_heading_container {
+    flex: 1;
+}
+
+.plan_container { 
+    flex: .8;
+    height: 100%;
+    width: 100%;
+    background: hsl(225, 100%, 98%);
+    border-radius: 18px;
+    display: flex;
+    padding: 12px 12px;
+
+}
+
+.proc_container { flex: 1;}
