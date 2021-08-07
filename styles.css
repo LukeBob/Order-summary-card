@@ -30,6 +30,27 @@ body {
     background: white;
     border-radius: 18px;
     box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 38px -5px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_image_container {
+    width: 100%;
+    background: url(/images/illustration-hero.svg);
+    flex: .8;
+    border-radius: 18px 18px 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.card_text_container {
+   
+    width: 100%;
+    flex: 1.2;
+  
 }
