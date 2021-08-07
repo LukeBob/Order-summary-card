@@ -193,6 +193,10 @@ h3 {
         flex: .4;
     }
 
+    .body {
+        background: url(/images/pattern-background-mobile.svg);
+    }
+
    .card {
         height: 620px;
         width: min(330px, 330px);
